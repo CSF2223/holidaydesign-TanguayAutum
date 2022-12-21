@@ -1,0 +1,28 @@
+/*
+Color Palette
+background color: #2D033B
+primary: #E5B8F4
+secondary: #C147E9
+tertiary: #810CA8
+accent: #810CA8
+vegasGold: #c5b358
+white: #fff
+black: #000  
+*/
+html {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: #2D033B;
+}
+.images {
+    padding: 3rem;
+}
+.images img {
+     border-radius: 6rem;
+    box-shadow: 10px 10px #000;
+    width: 100%;
+    height: auto;
+}
