@@ -1,0 +1,68 @@
+/*
+Color Palette
+background color: #2D033B
+primary: #E5B8F4
+secondary: #C147E9
+tertiary: #810CA8
+accent: #810CA8
+vegasGold: #c5b358
+white: #fff
+black: #000  
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+    margin: 0 4rem;
+    text-align: left;
+    border-bottom: 2px solid  #810CA8;
+    border-right: 2px solid  #810CA8;
+    border-left: 2px solid  #810CA8;
+    padding: 0.5rem;
+    font-size: .6rem;
+    color:  #C147E9;
+}
+
+body {
+    background-color:   #2D033B;
+    margin: 4;
+}
+h2 {
+    color:  #C147E9;
+}
+
+.lore {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 4px 4px;
+}
+.images {
+     width: 100%;
+    height: auto;
+}
+.imageText {
+     color:  #C147E9;
+    text-align: center;
+    
+}
+.Text {
+    color:#E5B8F4;
+}
+
+@media (min-width: 768px) {
+    header: {
+       font-size:  1.6rem;
+     }
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+    }
+    .lore{
+        max-width: 28%;
+    }
+}
